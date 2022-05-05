@@ -7,6 +7,8 @@ export const MillerTime = () => {
   const [randomURL, setRandomURL] = useState('')
   const [isLoading, setIsLoading] = useState(true)
 
+  const beerCan = new Audio('./beerCanOpen.mp3')
+
   const getRandomURL = (arr) => {
 
     // get random index value
@@ -46,8 +48,7 @@ export const MillerTime = () => {
     <div className="millerTime">
       <h1 className="title">It's Miller Time</h1>
       <iframe width="560" height="315" src={randomURL} title="It's Miller Time" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
-      <button onClick={() => handleClick()}>
-        <img src="/millerbutton4.png" alt="miller lite logo" /></button>
+        <img src="/millerbutton4.png" alt="miller lite logo" onClick={() => (handleClick(),beerCan.play())} />
   </div>
   </>
   )
