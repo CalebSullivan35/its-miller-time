@@ -1,5 +1,6 @@
 import React from "react"
 import { useState, useEffect } from "react"
+import { getAllURLS } from "./modules/DataManager"
 import './MillerTime.css'
 
 export const MillerTime = () => { 
@@ -30,18 +31,12 @@ export const MillerTime = () => {
 
 
   useEffect(() => {
-
-    const testArr = [
-      "https://www.youtube.com/embed/RRmK26dkyrY",
-      "https://www.youtube.com/embed/q0jYdplEH4Y",
-      "https://www.youtube.com/embed/UVpIAc6zX6s"
-    ]
-
-    setUrlRefs(testArr)
-    setRandomURL(testArr[1])
-    setIsLoading(false)
+    getAllURLS()
+    .then(allURLS => {
+      setUrlRefs(allURLS.urls)
+      setRandomURL(allURLS.urls[0])
+    }).then(() => setIsLoading(false))
   }, [])
-
 
   return (
     <>
