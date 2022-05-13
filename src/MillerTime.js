@@ -8,7 +8,7 @@ export const MillerTime = () => {
   const [randomURL, setRandomURL] = useState('')
   const [isLoading, setIsLoading] = useState(true)
 
-  const beerCan = new Audio('./beerCanOpen.mp3')
+  const beerCan = new Audio('https://res.cloudinary.com/wmdrums/video/upload/v1652458769/Beer_Can_Opening_-_Sound_Effect_HD__getmp3.pro_jazj1c.mp3')
 
   const getRandomURL = (arr) => {
 
@@ -40,13 +40,15 @@ export const MillerTime = () => {
 
   return (
     <>
+    <div className="centerContainer">
+    <div className="container">
     <div className="millerTime">
-      {/* <h1 className="title">It's Miller Time</h1> */}
-      {/* <div classname="millerLogo">
-        <img src='/millerTime.png' alt="miller time logo" className="millerLogo"/>
-      </div> */}
-      <iframe src={randomURL} title="It's Miller Time" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
-        <img src="/millerbutton4.png" alt="miller lite logo" onClick={() => (handleClick(),beerCan.play())} />
+      <iframe src={randomURL} title="It's Miller Time" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
+    </div>
+    </div>  
+    <div className="buttonLogo">
+        <img src='https://res.cloudinary.com/wmdrums/image/upload/v1652456437/millerbutton3-removebg-preview_sylnvv.png' alt="miller lite logo" onClick={() => (handleClick(),beerCan.play())} />
+  </div>
   </div>
   </>
   )
