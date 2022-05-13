@@ -1,14 +1,3 @@
-.millerTime {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 img {
   width: 75px;
   height: 75px;
@@ -29,20 +18,32 @@ body {
   background-color: #A07713;
 }
 
-.millerLogo {
-  width: 75px;
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
-/* iframe {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  max-height: 100vh;
-} */
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 72%;
+  height: 50%;
+  padding-top: 56.25%;
+  margin-left: 15%
+}
 
-iframe {
-  /* width: 560px;
-  height: 315px; */
-  width: 100%;
-  height: auto;
+.buttonLogo {
+  text-align: center;
+}
+
+.centerContainer {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 40px;
 }
