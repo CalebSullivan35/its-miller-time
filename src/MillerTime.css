@@ -39,3 +39,10 @@ body {
   text-align: center;
   max-height: 100vh;
 } */
+
+iframe {
+  /* width: 560px;
+  height: 315px; */
+  width: 100%;
+  height: auto;
+}

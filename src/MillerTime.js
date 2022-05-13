@@ -45,7 +45,7 @@ export const MillerTime = () => {
       {/* <div classname="millerLogo">
         <img src='/millerTime.png' alt="miller time logo" className="millerLogo"/>
       </div> */}
-      <iframe width="560" height="315" src={randomURL} title="It's Miller Time" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
+      <iframe src={randomURL} title="It's Miller Time" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
         <img src="/millerbutton4.png" alt="miller lite logo" onClick={() => (handleClick(),beerCan.play())} />
   </div>
   </>
