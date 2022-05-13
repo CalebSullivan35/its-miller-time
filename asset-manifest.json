@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/its-miller-time/static/css/main.956f5362.css",
-    "main.js": "/its-miller-time/static/js/main.eb5bac29.js",
+    "main.css": "/its-miller-time/static/css/main.6a81a160.css",
+    "main.js": "/its-miller-time/static/js/main.e93aaf6b.js",
     "static/js/787.c89ca149.chunk.js": "/its-miller-time/static/js/787.c89ca149.chunk.js",
     "static/media/mlbg2.jpg": "/its-miller-time/static/media/mlbg2.052dd00186b9acd907d9.jpg",
     "index.html": "/its-miller-time/index.html",
-    "main.956f5362.css.map": "/its-miller-time/static/css/main.956f5362.css.map",
-    "main.eb5bac29.js.map": "/its-miller-time/static/js/main.eb5bac29.js.map",
+    "main.6a81a160.css.map": "/its-miller-time/static/css/main.6a81a160.css.map",
+    "main.e93aaf6b.js.map": "/its-miller-time/static/js/main.e93aaf6b.js.map",
     "787.c89ca149.chunk.js.map": "/its-miller-time/static/js/787.c89ca149.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.956f5362.css",
-    "static/js/main.eb5bac29.js"
+    "static/css/main.6a81a160.css",
+    "static/js/main.e93aaf6b.js"
   ]
 }
