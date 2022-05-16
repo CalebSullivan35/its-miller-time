@@ -43,7 +43,7 @@ export const MillerTime = () => {
     <div className="centerContainer">
     <div className="container">
     <div className="millerTime">
-      <iframe src={randomURL} title="It's Miller Time" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
+      <iframe src={`${randomURL}?&autoplay=1`} title="It's Miller Time" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope passive:true; picture-in-picture"></iframe>
     </div>
     </div>  
     <div className="buttonLogo">
