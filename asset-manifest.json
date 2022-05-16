@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/its-miller-time/static/css/main.65617fe2.css",
-    "main.js": "/its-miller-time/static/js/main.f589e5c4.js",
+    "main.js": "/its-miller-time/static/js/main.bf450009.js",
     "static/js/787.c89ca149.chunk.js": "/its-miller-time/static/js/787.c89ca149.chunk.js",
     "static/media/mlbg2.jpg": "/its-miller-time/static/media/mlbg2.052dd00186b9acd907d9.jpg",
     "index.html": "/its-miller-time/index.html",
     "main.65617fe2.css.map": "/its-miller-time/static/css/main.65617fe2.css.map",
-    "main.f589e5c4.js.map": "/its-miller-time/static/js/main.f589e5c4.js.map",
+    "main.bf450009.js.map": "/its-miller-time/static/js/main.bf450009.js.map",
     "787.c89ca149.chunk.js.map": "/its-miller-time/static/js/787.c89ca149.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65617fe2.css",
-    "static/js/main.f589e5c4.js"
+    "static/js/main.bf450009.js"
   ]
 }
