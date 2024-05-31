@@ -11,11 +11,11 @@ img:hover {
 }
 
 h1 {
-  color: #000F3D
+  color: #000f3d;
 }
 
 body {
-  background-color: #A07713;
+  background-color: #a07713;
 }
 
 iframe {
@@ -35,7 +35,7 @@ iframe {
   width: 72%;
   height: 50%;
   padding-top: 56.25%;
-  margin-left: 15%
+  margin-left: 15%;
 }
 
 .buttonLogo {
